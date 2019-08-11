@@ -1,19 +1,20 @@
 {
-  "name": "bootswatch",
-  "description": "Bootswatch is a collection of themes for Bootstrap.",
+  "name": "bootswatch-tweaked",
+  "description": "Bootswatch-Tweaked is a collection of themes for Bootstrap.",
   "version": "4.3.1",
-  "author": "Thomas Park",
-  "homepage": "https://bootswatch.com",
+  "author": "Matt Eland",
+  "homepage": "https://github.com/IntegerMan/bootswatch",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thomaspark/bootswatch.git"
+    "url": "https://github.com/IntegerMan/bootswatch.git"
   },
   "engines": {
     "node": ">=6"
   },
   "scripts": {
-    "postcss": "postcss --no-map --use autoprefixer --config build/js/postcss.js --replace dist/*/bootstrap.css"
+    "postcss": "postcss --no-map --use autoprefixer --config build/js/postcss.js --replace dist/*/bootstrap.css",
+    "watch": "grunt watch"
   },
   "dependencies": {},
   "devDependencies": {
