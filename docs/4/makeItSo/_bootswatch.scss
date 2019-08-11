@@ -31,6 +31,11 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Roboto:400,700,400itali
 
 // Buttons =====================================================================
 
+.btn {
+  font-variant: small-caps;
+  font-family: 'Roboto Mono', monospace;
+}
+
 // Typography ==================================================================
 
 .blockquote {
@@ -166,6 +171,17 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Roboto:400,700,400itali
 
 .nav-tabs,
 .nav-pills {
+
+  font-variant: small-caps;
+  font-family: 'Roboto Mono', monospace;
+
+  .nav-item:hover, .nav-link:hover {
+    background: $nav-link-hover-background !important;
+
+    &.active {
+      background: $nav-link-active-background !important;
+    }
+  }
 
   .nav-link,
   .nav-link.active,

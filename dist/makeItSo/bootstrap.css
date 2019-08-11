@@ -1,9 +1,9 @@
 /*!
  * Bootswatch v4.3.1
- * Homepage: https://bootswatch.com
+ * Homepage: https://github.com/IntegerMan/bootswatch
  * Copyright 2012-2019 Matt Eland
  * Licensed under MIT
- * Based on Bootstrap
+ * Based on Bootstrap and Bootswatch
 */
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -10563,6 +10563,11 @@ a.text-dark:hover, a.text-dark:focus {
   color: #3399FF !important;
 }
 
+.btn {
+  font-variant: small-caps;
+  font-family: 'Roboto Mono', monospace;
+}
+
 .blockquote-footer {
   color: #999;
 }
@@ -10659,6 +10664,24 @@ a.text-dark:hover, a.text-dark:focus {
 
 .input-group-addon {
   color: #fff;
+}
+
+.nav-tabs,
+.nav-pills {
+  font-variant: small-caps;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.nav-tabs .nav-item:hover, .nav-tabs .nav-link:hover,
+.nav-pills .nav-item:hover,
+.nav-pills .nav-link:hover {
+  background: rgba(51, 153, 255, 0.6) !important;
+}
+
+.nav-tabs .nav-item:hover.active, .nav-tabs .nav-link:hover.active,
+.nav-pills .nav-item:hover.active,
+.nav-pills .nav-link:hover.active {
+  background: #3399FF !important;
 }
 
 .nav-tabs .nav-link,
